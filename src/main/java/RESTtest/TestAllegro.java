@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class TestAllegro {
-        String token= "put_token_here";
+        String token= "token_path";
         String url="https://api.allegro.pl";
         @Test
         public void test_01() {
